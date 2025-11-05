@@ -3,9 +3,7 @@ module sigma-firma.com
 go 1.23.4
 
 require (
-	github.com/hartsfield/connectToGoogleAPI v0.0.0-20250206124546-a2f4aff13909
-	github.com/sigma-firma/googlesheetsapi v0.0.0-20250206013313-848a8e487c06
-	github.com/sigma-firma/inboxer v0.0.0-20250206130226-1538bf37c182
+	github.com/sigma-firma/gsheet v0.0.0-20250208041123-181dfe66a7fd
 	google.golang.org/api v0.220.0
 )
 
@@ -20,7 +18,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/googleapis/gax-go/v2 v2.14.1 // indirect
-	github.com/sigma-firma/gsheet v0.0.0-20250208041123-181dfe66a7fd // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.59.0 // indirect
 	go.opentelemetry.io/otel v1.34.0 // indirect
